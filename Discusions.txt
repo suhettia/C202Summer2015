@@ -1,0 +1,67 @@
+
+
+Will meet every Friday until August 24th.
+Once a week Progress reports. I’ll produce progress report on GA/EA.
+October deadline/paper not the implementation. 
+Puck clustering task? No, we don’t need to settle because we are generalizing the task functions. Once a user 
+specify the task functions, GA should be able to generate population of functions and optimize them. So we should have a 
+Generalize GA that can accept any function.
+
+functions: 3 lists of numbers 
+
+
+
+
+05/29/2015
+
+
+Here are some discussion points.
+
+What is the task we are using? 
+multiple box pushing or box stacking
+colored object separation
+searching for food (multiple goal finding)
+waste item management
+we can still use stick pulling since we already know lot of things about the outcomes
+Not sure if you already have something decided, if not we can talk about these.
+
+I think some of these are not too complex to implement. 
+Once we decide the task then we have to decide the availability of technologies for a swarm to accomplish the task.
+At implementation level, we have to decide what these technologies look like for that specific task and transform them to some type of a manageable data structure. I think the rest is not too complex. Once the GA optimizes the technologies we feed them to the space transversal algorithm. 
+I have some speculations about the GA outcomes, but I’ll discuss with you when we chat. [Notes: limited technologies may limit capabilities of space transversal algorithm]
+
+Answer to your questions 3 mostly depends on the outcomes of the GA, there may be multiple emergent behaviors. We will have to wait to discuss this. We have to derive generalize conclusions to make sure that all these translate to physical robots, but then heterogeneity of physical robots complicates the answer. 
+
+——————————————————————————————————————
+
+04/01/2015
+
+I really enjoyed our conversation on Sunday.  It was definitely interesting 
+and I think culminated in a great research topic that we can jointly pursue.  
+Just to be clear, I wanted to briefly reiterate the final research topic we 
+decided on along with the path forward just to make sure we're on the same 
+page.
+
+We've decided to work together on the evolution of technologies needed to 
+accomplish a task.  Our plan is to use the method described in our last paper 
+to determine whether a swarm can be built which accomplishes a given task.  
+The pertinent questions are
+
+1.  Can the technologies be evolved in such a way that realistic capabilities 
+arise which accomplish the task?
+2.  What is the variability of the evolved technologies?
+3.  What are the conclusions one can draw from the kinds of technologies that 
+emerge with respect to their suitability for the specific problem?
+4.  How does this translate to physical swarms?
+
+I'm sure there will be others.
+
+The plan:
+
+JRI will create the generalized phase space transversal algorithm.
+By May, we will reconvene to plan the summer during which we'll develop the 
+evolutionary algorithm.
+
+Please let me know if this sounds right.  
+
+I'm excited!  This sounds like it'll be fun!
